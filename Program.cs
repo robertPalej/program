@@ -55,7 +55,6 @@ namespace program
 
         static void Main(string[] args)
         {
-
             if(args.Length == 2)
             {
 		Program program = new Program();
