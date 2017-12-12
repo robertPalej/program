@@ -55,10 +55,10 @@ namespace program
 
         static void Main(string[] args)
         {
-            Program program = new Program();
 
             if(args.Length == 2)
             {
+		Program program = new Program();
                 Console.WriteLine(program.GetDateRange(args[0], args[1]));
             }
             else
